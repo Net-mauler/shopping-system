@@ -48,7 +48,7 @@
                 <table class="table table-bordered table-striped">
                     <tbody>
                         <tr>
-                            <th>Item Number</th><th>Item Name</th><th>Price</th><th></th>
+                            <th>Item Num</th><th>Item Name</th><th>Price</th><th></th>
                         </tr>
                        <?php 
                         $user_products_result=mysqli_query($con,$user_products_query) or die(mysqli_error($con));
